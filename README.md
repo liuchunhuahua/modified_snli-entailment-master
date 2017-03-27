@@ -1,5 +1,5 @@
-This is modified from https://github.com/shyamupa/snli-entailment. 
-It can work on tensorflow 1.0, the error arised by the tensorflow or python version update have been modified.
+This is modified from https://github.com/shyamupa/snli-entailment.   
+It can work on tensorflow 1.0, the errors arised by the tensorflow or python version update have been modified.  
 Some other small errors have been modified.
 
 
