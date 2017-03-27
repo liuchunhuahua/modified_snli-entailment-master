@@ -1,3 +1,7 @@
+This is modified from https://github.com/shyamupa/snli-entailment. 
+It can work on tensorflow 1.0, the error arised by the tensorflow or python version update have been modified.
+Some other small errors have been modified.
+s
 Implementations of a attention model for entailment from [this paper](http://arxiv.org/abs/1509.06664) in keras and tensorflow.
 
 Compatible with keras v1.0.6 and tensorflow 0.11.0rc2
