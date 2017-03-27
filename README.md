@@ -1,6 +1,9 @@
+
 This is modified from https://github.com/shyamupa/snli-entailment.   
-It can work on tensorflow 1.0, the errors arised by the tensorflow or python version update have been modified.  
-Some other small errors have been modified.
+（1）tf_model.py can work on tensorflow 1.0, the errors arised by the tensorflow or python version update have been modified.  
+Some other small errors have been modified.  
+(2) The datasets have been provided   
+(3) implemnt by type:  python tf_model.py -train train.txt -dev dev.txt -test test.txt
 
 
 Implementations of a attention model for entailment from [this paper](http://arxiv.org/abs/1509.06664) in keras and tensorflow.
@@ -14,11 +17,7 @@ To train,
 * Download [snli dataset](http://nlp.stanford.edu/projects/snli/).
 * Create train, dev, test files with tab separated text, hypothesis and label (example file train10.txt). You can find some snippet in `reader.py` for this, if you are lazy.
 * Train by either running,
-
-```
-python amodel.py -train <TRAIN> -dev <DEV> -test <TEST>
-```
-for using the keras implementation, or 
+ 
 ```
 python tf_model.py -train <TRAIN> -dev <DEV> -test <TEST>
 ```
